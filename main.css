@@ -59,6 +59,10 @@ h6 {
   font-family: var(--font-primary);
 }
 
+/*--------------------------------------------------------------
+# Sections & Section Header
+--------------------------------------------------------------*/
+
 /*index html*/
 
 .ul.index {
@@ -111,9 +115,8 @@ h6 {
 
 /* end of index html*/
 
-/*--------------------------------------------------------------
-# Sections & Section Header
---------------------------------------------------------------*/
+
+
 .section-header {
   padding-bottom: 40px;
 }
@@ -147,6 +150,12 @@ h6 {
   font-family: var(--font-secondary);
   color: #fff;
 }
+
+@media (max-width: 400px) {
+  .section-header
+  
+}
+
 
 /*--------------------------------------------------------------
 # Page Header
@@ -436,7 +445,7 @@ h6 {
 /*--------------------------------------------------------------
 # Desktop Navigation
 --------------------------------------------------------------*/
-@media (min-width: 120px) {
+@media (min-width: 400px) {
   .navbar {
     padding: 0;
   }
@@ -549,7 +558,7 @@ h6 {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 400px) {
 
   .mobile-nav-show,
   .mobile-nav-hide {
@@ -560,7 +569,7 @@ h6 {
 /*--------------------------------------------------------------
 # Mobile Navigation
 --------------------------------------------------------------*/
-@media (max-width: 100px) {
+@media (max-width: 800px) {
   .navbar {
     position: fixed;
     top: 0;
