@@ -59,6 +59,58 @@ h6 {
   font-family: var(--font-primary);
 }
 
+/*index html*/
+
+.ul.index {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#663300;
+}
+
+.li.index {
+    float: left;
+    border-right:3px outset #99ff99;
+}
+
+
+
+.li.index a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.li.index a:hover:not(.active) {
+    background-color: #111;
+	font-family: tahoma;
+	text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 800;
+    color:#99ff99;
+    white-space: nowrap;
+}
+
+
+.li.active {
+    background-color: #4CAF50;
+}
+.div.index{
+	
+}
+
+@media (max-width: 768px) {
+  .div.index
+}
+
+
+
+/* end of index html*/
+
 /*--------------------------------------------------------------
 # Sections & Section Header
 --------------------------------------------------------------*/
